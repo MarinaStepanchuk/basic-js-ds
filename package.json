@@ -11,7 +11,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node ./src/remove-from-list"
   },
   "repository": {
     "type": "git",
