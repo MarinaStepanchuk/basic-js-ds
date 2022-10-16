@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node ./src/remove-from-list"
+    "start": "node ./src/stack.js"
   },
   "repository": {
     "type": "git",
