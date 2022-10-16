@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node ./src/queue.js"
+    "start": "node ./src/binary-search-tree.js"
   },
   "repository": {
     "type": "git",
