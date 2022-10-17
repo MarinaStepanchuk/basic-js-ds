@@ -33,13 +33,13 @@ class Queue {
 
   enqueue(value) {
     if(this.length === 0) {
-      this.head = new Node(value);
+      this.head = new ListNode(value);
     } else {
       let elem = this.head;
       while(elem.next) {
         elem = elem.next;
       }
-      elem.next = new Node(value);
+      elem.next = new ListNode(value);
     }
     this.length++
   }
@@ -51,9 +51,6 @@ class Queue {
     return elem.value
   }
 }
-
-let z = new Queue()
-console.log(z.enqueue(5))
 
 module.exports = {
   Queue
